@@ -24,7 +24,7 @@ function MiniCart({ cartItems, onRemove, closeMiniCart }) {
                                 onClick={() => onRemove(item.id)}
                                 className="text-red-500 hover:text-red-700"
                             >
-                                
+                                remove
                             </button>
                         </li>
                     ))}

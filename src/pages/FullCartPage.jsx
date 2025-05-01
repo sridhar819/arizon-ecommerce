@@ -34,7 +34,7 @@ const FullCartPage = () => {
                                 <div className="space-x-2">
                                     <button onClick={() => decrementQuantity(item.id)} className="px-2 py-1 bg-blue-400 text-white rounded" disabled={item.quantity <= 1}>-</button>
                                     <button onClick={() => increaseQuantity(item.id)} className="px-2 py-1 bg-yellow-400 text-white rounded" >+</button>
-                                    <button onClick={() => removeItem(item.id)} className="px-2 py-1 bg-red-500 text-white rounded">Remove</button>
+                                    <button onClick={() => removeItem(item.id)} className="px-2 py-1 bg-red-500 text-white rounded mt-2 sm:mt-0">Remove</button>
                                 </div>
                             </li>
                         ))}
